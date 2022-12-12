@@ -4,6 +4,10 @@
   "description": "Node.js on Docker",
   "author": "First Last <first.last@example.com>",
   "main": "server.js",
+  "engines": {
+    "node": "18.12.1",
+    "npm": "8.19.2"
+  },
   "scripts": {
     "start": "node server.js"
   },
